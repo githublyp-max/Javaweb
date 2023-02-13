@@ -12,7 +12,7 @@ public class HelloServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 //        System.out.println("进入doget");
 //        PrintWriter writer = resp.getWriter();
-//        writer.print("aa");
+//        writer.print("aaa");
         ServletContext servletContext = this.getServletContext();
         String username="刘玉鹏";
         servletContext.setAttribute("username",username);
