@@ -11,7 +11,7 @@ public class RequestDispatcher extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 //        System.out.println("进入doget");
 //        PrintWriter writer = resp.getWriter();
-//        writer.print("aa");
+//        writer.print("aaaa");
         ServletContext servletContext = this.getServletContext();
 
         servletContext.getRequestDispatcher("/cp").forward(req,resp);
